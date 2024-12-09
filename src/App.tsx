@@ -1,7 +1,7 @@
 import reactLogo from "./assets/react.svg"
 import viteLogo from "/vite.svg"
 import "./App.css"
-import styled from "styled-components"
+import styled from "@emotion/styled"
 import { useNavigate } from "react-router"
 
 const Flex = styled.div`
@@ -30,7 +30,7 @@ function App() {
         <Button onClick={() => navigate("/accordion-demo")}>
           Accordion Demo
         </Button>
-        <Button>Modal Demo</Button>
+        <Button onClick={() => navigate("/modal-demo")}>Modal Demo</Button>
       </Flex>
     </>
   )

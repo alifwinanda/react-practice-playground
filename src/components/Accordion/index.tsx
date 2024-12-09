@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import styled from "styled-components"
+import styled from "@emotion/styled"
 
 // learn why styled components props behaves differently from what i learn in ralali
 const Container = styled.div<{ $width?: string }>`

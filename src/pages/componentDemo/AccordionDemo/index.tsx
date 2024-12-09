@@ -1,5 +1,5 @@
-import styled from "styled-components"
-import Accordion from "../../components/Accordion"
+import styled from "@emotion/styled"
+import Accordion from "../../../components/Accordion"
 
 const AccordionWrapper = styled.div`
   display: flex;
