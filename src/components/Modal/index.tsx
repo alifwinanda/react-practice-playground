@@ -2,6 +2,8 @@ import styled from "@emotion/styled"
 import { Button, Divider, Typography } from "@mui/material"
 import { ReactNode } from "react"
 
+// learned from https://dev.to/franciscomendes10866/how-to-create-a-modal-in-react-3coc
+
 const ModalBackground = styled.div`
   background-color: rgba(0, 0, 0, 0.2);
   width: 100vw;
